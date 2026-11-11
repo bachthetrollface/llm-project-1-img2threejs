@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netted lifebuoy · Reconstruction Study</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <span class="mark">FORM / LAB</span><span class="badge">PROCEDURAL THREE.JS</span>
+      </header>
+      <section class="heading">
+        <div>
+          <p class="eyebrow">ONE IMAGE → EDITABLE GEOMETRY</p>
+          <h1>Netted lifebuoy</h1>
+        </div>
+        <p class="note">Approximate reconstruction from one view.</p>
+      </section>
+      <section class="workspace">
+        <article class="reference">
+          <div class="label"><b>01</b> REFERENCE</div>
+          <img src="/lifebuoy-reference.png" alt="Netted lifebuoy reference photograph" />
+        </article>
+        <article class="model">
+          <div class="label"><b>02</b> RECONSTRUCTION</div>
+          <div id="stage" aria-label="Interactive model of the netted lifebuoy"></div>
+          <div class="caption" id="selected">Drag to orbit · scroll to zoom · click a part</div>
+        </article>
+      </section>
+      <section class="toolbar">
+        <div class="views">
+          <button id="reset">Reference view</button><button id="back">Back view</button>
+        </div>
+        <label><input type="checkbox" id="explode" /> Separate parts</label>
+      </section>
+    </main>
+    <script type="module">
+      import { createLifebuoyModel } from './src/createLifebuoyModel.ts';
+      import { mountObjectStudy } from './src/mountObjectStudy.ts';
+      mountObjectStudy(createLifebuoyModel(), {
+        camera: [0.75, 2.45, 7],
+        targetHeight: 1.3,
+        span: 3.9,
+        background: 0xf1f1f1,
+      });
+    </script>
+  </body>
+</html>

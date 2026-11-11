@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tomato · Reconstruction Study</title>
+  </head>
+  <body>
+    <main id="app">
+      <header>
+        <span class="mark">FORM / LAB</span><span class="issue">RECONSTRUCTION STUDY — 003</span
+        ><span class="badge">PROCEDURAL THREE.JS</span>
+      </header>
+      <section class="heading">
+        <div>
+          <p class="eyebrow">ONE IMAGE → EDITABLE GEOMETRY</p>
+          <h1>The tomato.</h1>
+          <p class="intro">A procedural study in organic form, glossy skin, and a curling calyx.</p>
+        </div>
+        <p class="note">Single-view reconstruction.<br />Hidden surfaces and wear are inferred.</p>
+      </section>
+      <section class="workspace">
+        <article class="reference">
+          <div class="label"><b>01</b> REFERENCE <span>1024 × 1024</span></div>
+          <img src="/tomato-reference.png" alt="Reference photograph of a ripe red tomato" />
+          <div class="caption">The original photograph <span>tomato reference</span></div>
+        </article>
+        <article class="model">
+          <div class="label"><b>02</b> RECONSTRUCTION <span id="pass-name">APPROXIMATE</span></div>
+          <div id="stage"></div>
+          <div class="caption">
+            <span id="selected">Drag to orbit · scroll to zoom · click an assembly</span
+            ><span id="metrics">Loading geometry…</span>
+          </div>
+        </article>
+      </section>
+      <section class="toolbar">
+        <div class="views">
+          <button data-view="reference" class="active">Reference view</button
+          ><button data-view="front">Front</button><button data-view="right">Side</button
+          ><button data-view="rear">Rear</button>
+        </div>
+        <div class="actions">
+          <label><input id="wireframe" type="checkbox" /> Wireframe</label
+          ><label><input id="explode" type="checkbox" /> Explode</label
+          ><button id="export">Download GLB ↗</button>
+        </div>
+      </section>
+      <footer>
+        <span>img2threejs · timeboxed reconstruction test</span
+        ><span>Continuous fruit surface · six sepals · curved stem</span>
+      </footer>
+    </main>
+    <pre id="evidence" hidden></pre>
+    <script type="module" src="/src/tomato-main.ts"></script>
+  </body>
+</html>

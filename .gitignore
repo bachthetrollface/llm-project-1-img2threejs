@@ -1,0 +1,24 @@
+# Dependencies and build output
+node_modules/
+/dist/
+/.vite/
+*.tsbuildinfo
+
+# Local reconstruction state and review output
+.img2threejs/
+/evidence/
+/table-test/preview.png
+/table-test/preview-raw.png
+/table-test/test-status.json
+/tomato-test/code-checks.json
+/tomato-test/status.json
+/exports/
+
+# Test output, caches, and logs
+/coverage/
+/test-results/
+/playwright-report/
+__pycache__/
+*.py[cod]
+*.log
+.DS_Store

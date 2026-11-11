@@ -1,0 +1,238 @@
+{
+  "sourceImage": "/Users/minhthutran/Downloads/grinder.png",
+  "detailInventory": {
+    "scanMethod": "component-zones",
+    "targetMinDetails": 10,
+    "note": "Enumerate every identity-defining small detail before authoring the spec. Each detail must map to a component.localFeatures entry or material.localOverrides entry, never prose only. Use forge/stage1_intake/build_detail_inventory.py to scan zones.",
+    "details": [
+      {
+        "id": "taper",
+        "kind": "contour",
+        "description": "Full-height trapezoid, top width 0.68 of bottom.",
+        "region": {
+          "x": 0.41,
+          "y": 0.28,
+          "width": 0.28,
+          "height": 0.52
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "front-panel.tapered-outline"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.98
+      },
+      {
+        "id": "front-holes",
+        "kind": "hole",
+        "description": "Staggered rows of elongated oval/teardrop through holes.",
+        "region": {
+          "x": 0.44,
+          "y": 0.35,
+          "width": 0.22,
+          "height": 0.39
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "front-panel.perforations"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.98
+      },
+      {
+        "id": "side-holes",
+        "kind": "hole",
+        "description": "Dense oval through holes visible on narrow face.",
+        "region": {
+          "x": 0.34,
+          "y": 0.34,
+          "width": 0.08,
+          "height": 0.36
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "left-panel.perforations"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.95
+      },
+      {
+        "id": "cutting-lips",
+        "kind": "ridge",
+        "description": "Thin protruding cutting hoods border the lower portions of apertures.",
+        "region": {
+          "x": 0.45,
+          "y": 0.36,
+          "width": 0.2,
+          "height": 0.3
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "front-lips.raised-lips"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.85
+      },
+      {
+        "id": "rolled-rim",
+        "kind": "bevel",
+        "description": "Rounded rectangular roll at the base projects beyond panels.",
+        "region": {
+          "x": 0.32,
+          "y": 0.71,
+          "width": 0.38,
+          "height": 0.1
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "base-rim.rolled-edge"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.98
+      },
+      {
+        "id": "top-mouth",
+        "kind": "hole",
+        "description": "Top is open, with a thin folded edge and no bridge handle.",
+        "region": {
+          "x": 0.38,
+          "y": 0.27,
+          "width": 0.23,
+          "height": 0.07
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "top-front.open-mouth"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.96
+      },
+      {
+        "id": "corner-fold",
+        "kind": "seam",
+        "description": "Vertical folded corner produces a bright seam.",
+        "region": {
+          "x": 0.41,
+          "y": 0.3,
+          "width": 0.02,
+          "height": 0.48
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "corner-0.fold"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.95
+      },
+      {
+        "id": "rear-dark",
+        "kind": "contour",
+        "description": "Rear top interior is dark and perforated; no solid top cap.",
+        "region": {
+          "x": 0.41,
+          "y": 0.27,
+          "width": 0.15,
+          "height": 0.04
+        },
+        "scale": "meso",
+        "affects": "geometry",
+        "mapsTo": {
+          "type": "component.localFeatures",
+          "ref": "back-panel.interior"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.85
+      },
+      {
+        "id": "scratches",
+        "kind": "scratch",
+        "description": "Fine vertical and short diagonal scratches on the front metal.",
+        "region": {
+          "x": 0.47,
+          "y": 0.32,
+          "width": 0.12,
+          "height": 0.12
+        },
+        "scale": "micro",
+        "affects": "roughness/normal",
+        "mapsTo": {
+          "type": "material.localOverrides",
+          "ref": "steel.scratches"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.9
+      },
+      {
+        "id": "mottling",
+        "kind": "stain",
+        "description": "Low contrast worn roughness mottling on unpainted metal.",
+        "region": {
+          "x": 0.46,
+          "y": 0.53,
+          "width": 0.16,
+          "height": 0.2
+        },
+        "scale": "micro",
+        "affects": "roughness/normal",
+        "mapsTo": {
+          "type": "material.localOverrides",
+          "ref": "steel.mottling"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.9
+      },
+      {
+        "id": "rim-polish",
+        "kind": "gloss",
+        "description": "Base rim carries narrow low-roughness highlights.",
+        "region": {
+          "x": 0.43,
+          "y": 0.77,
+          "width": 0.25,
+          "height": 0.04
+        },
+        "scale": "micro",
+        "affects": "roughness/normal",
+        "mapsTo": {
+          "type": "material.localOverrides",
+          "ref": "rim-steel.polished-edge"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.95
+      },
+      {
+        "id": "lip-polish",
+        "kind": "gloss",
+        "description": "Small bright cutting edge highlights adjacent to dark cavities.",
+        "region": {
+          "x": 0.46,
+          "y": 0.35,
+          "width": 0.16,
+          "height": 0.36
+        },
+        "scale": "micro",
+        "affects": "roughness/normal",
+        "mapsTo": {
+          "type": "material.localOverrides",
+          "ref": "cut-steel.cut-edge"
+        },
+        "evidenceRef": "full-object",
+        "confidence": 0.85
+      }
+    ]
+  }
+}

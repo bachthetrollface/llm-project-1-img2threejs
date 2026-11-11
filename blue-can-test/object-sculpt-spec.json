@@ -1,0 +1,22 @@
+{
+  "name": "Blue glitter beverage can",
+  "qualityContract": {
+    "critical": [
+      "tall cylindrical wall with tapered shoulder",
+      "silver rolled upper rim and stepped aluminum base",
+      "metallic blue body with fine sparkles",
+      "upward-slanting gold lettering and clustered foil flecks",
+      "separate lid and pull tab"
+    ],
+    "uncertainty": "The lettering is redrawn approximately; the back artwork and lid details are inferred."
+  },
+  "parts": [
+    "painted wall",
+    "upper rolled rim",
+    "lid",
+    "pull tab",
+    "bottom chime"
+  ],
+  "approach": "Lathed body and rim profiles, a generated canvas finish, and an extruded pull tab.",
+  "scope": "Timeboxed code-only approximation. Visual and full staged verification deferred."
+}

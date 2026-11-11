@@ -1,0 +1,36 @@
+{
+  "object": "Rustic wooden table",
+  "mode": "approximate five-minute test",
+  "qualityContract": {
+    "critical": [
+      "four rectangular legs",
+      "thin rectangular overhanging top",
+      "four apron rails",
+      "warm weathered wood grain"
+    ],
+    "limitations": [
+      "hidden joinery inferred",
+      "grain approximate, not photo projected",
+      "full eight-pass review deferred for user time budget"
+    ]
+  },
+  "dimensions": {
+    "width": 2.8,
+    "depth": 2.3,
+    "height": 1.75,
+    "legSection": 0.19,
+    "topThickness": 0.1,
+    "apronHeight": 0.25
+  },
+  "components": [
+    "tabletop",
+    "leg-front-left",
+    "leg-front-right",
+    "leg-back-left",
+    "leg-back-right",
+    "apron-front",
+    "apron-back",
+    "apron-left",
+    "apron-right"
+  ]
+}

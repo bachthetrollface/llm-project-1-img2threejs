@@ -1,0 +1,70 @@
+{
+  "name": "Ripe red tomato",
+  "scope": "Code-only approximate reconstruction; five-minute budget; no server or visual review requested",
+  "objectClass": {
+    "primaryDomain": "object",
+    "primaryType": "tomato",
+    "formLanguage": "organic botanical",
+    "complexity": "simple"
+  },
+  "observations": {
+    "silhouette": "Nearly spherical, slightly oblate red fruit with broad shoulders and a shallow stem depression",
+    "assemblies": [
+      "continuous fruit body",
+      "radial green calyx with pointed curling sepals",
+      "short curved green stem"
+    ],
+    "finish": "Glossy red dielectric cuticle, very fine pores; rough olive-green calyx and stem",
+    "uncertainty": [
+      "rear sepal count and shape",
+      "underside scar",
+      "physical size"
+    ]
+  },
+  "qualityContract": {
+    "criticalFeatures": [
+      "continuous smooth fruit silhouette",
+      "subtle shoulder lobing and stem depression",
+      "six pointed curved green sepals",
+      "short oblique stem seated in calyx",
+      "red nonmetallic glossy skin"
+    ],
+    "details": [
+      "flattened ground contact",
+      "top depression",
+      "shoulder lobes",
+      "red color variation",
+      "skin pores",
+      "sepal taper",
+      "sepal longitudinal fold",
+      "raised sepal veins",
+      "curved stem",
+      "cut stem cap"
+    ],
+    "materials": {
+      "skin": {
+        "metalness": 0,
+        "roughness": 0.27,
+        "clearcoat": 0.3
+      },
+      "calyx": {
+        "metalness": 0,
+        "roughness": 0.83
+      }
+    },
+    "verification": "TypeScript and production build only. Render and visual fidelity gates deferred by user instruction."
+  },
+  "topology": {
+    "fruit": "continuous displaced sphere",
+    "sepals": "curved thin double-sided leaf surfaces",
+    "stem": "swept tube"
+  },
+  "componentTree": [
+    "fruit",
+    "calyx/sepal-1..6/blade+midrib",
+    "stem/tube+cut-cap"
+  ],
+  "lightingRecipe": "neutral studio environment, broad rectangular key and fill; gray background",
+  "projectionRoute": "procedural red albedo with fine seeded variation; no photo highlights baked into texture",
+  "pipelineStatus": "abbreviated code-only delivery, full quality gates incomplete"
+}

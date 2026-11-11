@@ -1,0 +1,14 @@
+{
+  "admitted": true,
+  "reasons": [],
+  "provenance": {
+    "viewpoint": "reference",
+    "sourcePath": "/Users/minhthutran/Downloads/grinder.png",
+    "width": 1024,
+    "height": 1024,
+    "foregroundCoverage": 0.1514,
+    "largestComponentFraction": 0.9994,
+    "pHash": 18204302458651975850,
+    "duplicateOfHash": null
+  }
+}

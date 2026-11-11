@@ -1,0 +1,22 @@
+{
+  "name": "Orange netted lifebuoy",
+  "qualityContract": {
+    "critical": [
+      "rounded continuous orange flotation ring with a large open center",
+      "shallow basket of black diamond rope netting behind the front rim",
+      "visible knots and inner-rim ties",
+      "black lacing draped over the lower-right quadrant",
+      "thin molded shell seam"
+    ],
+    "uncertainty": "Rear lacing and the depth of the basket are inferred."
+  },
+  "parts": [
+    "float shell",
+    "molded seam",
+    "net cords",
+    "net knots",
+    "rim lashings"
+  ],
+  "approach": "Elliptical tube on a circular centerline; diamond lattice clipped to the opening and given a shallow sag; lower-right lacing swept around the tube.",
+  "scope": "Timeboxed code-only approximation. Visual and full staged verification deferred."
+}

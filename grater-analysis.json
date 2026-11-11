@@ -1,0 +1,19 @@
+{
+  "target": "Tapered stainless-steel box grater",
+  "source": "/Users/minhthutran/Downloads/grinder.png",
+  "classification": {"primaryDomain":"object","primaryType":"box grater","confidence":0.99,"intendedUse":"real-time browser prop"},
+  "suitability": {"verdict":"conditional-pass","scores":{"singleTarget":1.0,"silhouette":0.94,"materialVisibility":0.9,"proceduralFeasibility":0.9,"hiddenGeometryConfidence":0.5},"reason":"One fully contained opaque object, clear tapered outline and readable repeated perforations; exact rear geometry and real-world scale are not observable."},
+  "observations": {
+    "macro":"Hollow truncated rectangular pyramid, wider at base, four thin sheet-metal faces; wide front and narrower lateral face visible; no handle visible.",
+    "meso":"Open rectangular top; rolled bottom rim; folded corner seams; staggered perforation rows; dark interior visible through openings.",
+    "micro":"Elongated oval/teardrop apertures, raised cutting lips, fine mostly vertical scratches, mottled roughness, rim highlights, corner wear.",
+    "relationships":["All four panels join at folded vertical edges","Panel feet fit within the rolled perimeter base","Top opening remains unobstructed","Cutting lips border actual holes rather than painted black dots"],
+    "materials":"Neutral silver unpainted metal, metalness near 1, satin worn finish with localized polished rim; dark areas at holes are cavity shading rather than black albedo.",
+    "camera":"Three-quarter view, above top plane, front and object-left side visible, long focal length, gray ground/background with soft contact shadow."
+  },
+  "geometryStrategy":{"panels":"Trapezoidal thin extrusions with real oval/teardrop holes","rim":"Closed rounded-rectangle swept tube","seams":"Narrow folded extruded edge strips","lips":"Repeated curved raised sheet lips at each perforation"},
+  "dimensions":{"units":"arbitrary","height":2.6,"baseWidth":1.5,"baseDepth":1.05,"topWidth":1.02,"topDepth":0.70,"sheetThickness":0.008},
+  "unknowns":["Rear and far-side perforation patterns inferred from visible faces","Interior fasteners and exact manufacturing folds hidden","Absolute physical dimensions unknown","Scratches approximate; no exact reproduction of individual wear marks"],
+  "projectionApplicability":{"applicable":false,"reason":"No painted skin, decal, logo, or identity-defining printed pattern; the reference mainly shows lighting on raw metal. Projecting its shadows would bake illumination into the surface."},
+  "materialEvidenceApplicability":{"applicable":true,"regions":{"frontMetal":[480,320,590,350],"leftMetal":[395,470,420,520],"rim":[470,797,560,815]}}
+}
